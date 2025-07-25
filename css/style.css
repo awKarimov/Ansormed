@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-:root{
+:root {
   --text-color: white;
   --button-color: #de2e54;
   --bg-color: #0eb4c1;
@@ -13,21 +13,19 @@
 
 /* Fonts */
 @font-face {
-    font-family: 'Open Sans';
-    src: url('../fonts/') format('woff2'),
-        url('../fonts/OpenSans-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Open Sans";
+  src: url("../fonts/") format("woff2"),
+    url("../fonts/OpenSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-
-
 
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -62,7 +60,8 @@ li {
   color: var(--text-color) !important;
   background-color: var(--button-color);
   border-radius: 8px;
-  padding: 12px 24px;
+  padding: 10.8px 14.6px;
+  font-size: 13px;
 }
 
 .red-button:hover {
@@ -83,6 +82,7 @@ li {
   line-height: 150%;
   letter-spacing: 2px;
   margin: 24px 170px;
+  margin-bottom: 14px;
 }
 
 .header-content {
@@ -90,25 +90,41 @@ li {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
 }
 
 .logo {
-  width: 185px;
-  height: 50px;
+  margin-top: -3.5px;
+  margin-left: 65px;
+  width: 147px;
+  height: 44px;
 }
 
 .header-links {
+  font-size: 11px;
+  margin-left: -42px;
+  margin-top: -6.8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 25px;
+  margin-right: -113px;
+}
+
+.header-button {
+  margin-top: -9px;
+  letter-spacing: 1.6px;
+  font-size: 10px;
+  font-weight: 350;
+  margin-right: 130px;
+  border-radius: 8px;
+  padding: 8px 18px;
+  padding-left: 15px;
 }
 
 .burger-menu {
@@ -130,6 +146,7 @@ li {
 .hero {
   background-color: var(--bg-color);
   color: var(--text-color);
+  height: 428px;
 }
 
 .hero-content {
@@ -137,27 +154,35 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   max-width: 100%;
   height: 533px;
 }
 
 .hero-data {
-  padding-top: 120px;
-  padding-left: 150px;
+  padding-top: 93.4px;
+  padding-left: 259px;
 }
 
 .hero-title {
-  font-size: 36px;
-  line-height: 120%;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: -0.4px;
 }
 
 .hero-text {
-  font-size: 18px;
+  font-size: 14.3px;
   line-height: 150%;
-  margin-top: 16px;
-  margin-bottom: 36px;
+  width: 350px;
+  margin-top: 15.2px;
+  margin-bottom: 29px;
+}
+
+.nd-button {
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  padding-right: 20.5px;
 }
 
 .nd-button:hover {
@@ -166,10 +191,10 @@ li {
 }
 
 .hero-img {
-  width: 423px;
-  height: 504px;
+  width: 342px;
+  height: 404px;
   margin-top: 24px;
-  margin-right: 150px;
+  margin-right: 258px;
 }
 
 /* INFORMATIONS */
@@ -179,27 +204,44 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 120px;
-  margin-bottom: 56px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 99px;
+  margin-bottom: 47px;
   font-size: 36px;
-  line-height: 120%;
+  line-height: 130%;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 17px;
   line-height: 120%;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 .text {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 150%;
+  letter-spacing: -0.22px;
+  margin-top: ;
 }
 
-.informations {
-  margin: 60px 288px;
+.hijoma-text {
+  width: 464px;
+  letter-spacing: -0.22px;
+}
+
+.manual-teraphy {
+  width: 495px;
+  letter-spacing: -0.22px;
+}
+
+.cure-leech {
+  width: 480px;
+}
+
+.drug {
+  width: 495px;
 }
 
 .data {
@@ -207,21 +249,21 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-bottom: 80px;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 355px;
+  margin-right: 130px;
+  margin-bottom: 64px;
 }
 
 .info-img {
-  width: 300px;
-  height: 300px;
+  width: 160px;
+  height: 160px;
   border-radius: 24px;
-  margin-right: 64px;
+  margin-right: 50.4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.15) 0px 10px 10px -5px;
-          box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.15) 0px 10px 10px -5px;
 }
 
@@ -230,9 +272,11 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 60px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: -18px;
+  letter-spacing: -0.3px;
+  font-weight: 300;
 }
 
 /* CTA */
@@ -241,8 +285,8 @@ h3 {
   background-color: var(--bg-color);
   color: var(--text-color);
   width: 100%;
-  height: 253px;
-  margin-top: 10px;
+  height: 203px;
+  margin-top: 96.6px;
 }
 
 .cta-title {
@@ -250,9 +294,10 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 64px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 24px;
+  padding-top: 53px;
 }
 
 .cta-way {
@@ -260,22 +305,23 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 40px;
-  margin-top: 40px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 36px;
 }
 
 .cta-link {
+  font-size: 12px;
   color: var(--text-color);
-  padding: 12px 24px;
+  padding: 8px 17.9px;
   border-radius: 8px;
   border: 2px solid var(--text-color);
 }
 
 .cta-link:hover {
   background-color: var(--button-color);
-  border: var(--button-color);  
+  border: var(--button-color);
 }
 
 .cta-link:active {
@@ -289,7 +335,7 @@ h3 {
 .footer {
   background-color: #222222;
   width: 100%;
-  height: 98px;
+  height: 79px;
   color: var(--text-color);
 }
 
@@ -298,31 +344,35 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
   color: var(--text-color);
   padding-top: 24px;
   margin-left: 100px;
 }
 
 .footer-logo {
-  width: 185px;
+  width: 145px;
   height: 50px;
+  margin-left: 160px;
+  margin-top: -10px;
 }
 
 .footer-links {
+  font-size: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 32px;
-  margin-right: 100px;
+  gap: 25px;
+  margin-top: -15px;
+  margin-right: 258px;
 }
 
 .bold {
   color: var(--text-color);
+  letter-spacing: 1.3px;
 }
 
 .bold:hover {
@@ -374,8 +424,8 @@ h3 {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .hero-data {
@@ -410,11 +460,11 @@ h3 {
   .information-title {
     font-size: 42px;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     margin-left: 40px;
     margin-bottom: 80px;
     margin-top: 80px;
@@ -423,8 +473,8 @@ h3 {
   .data {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-left: 20px;
     margin-right: 40px;
   }
@@ -474,7 +524,7 @@ h3 {
     height: 980px;
   }
 
-  .hero-text{
+  .hero-text {
     width: 370px;
     text-align: left;
   }
@@ -532,8 +582,8 @@ h3 {
   .footer-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .footer-logo {
@@ -545,8 +595,8 @@ h3 {
   .footer-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     text-align: center;
     font-size: 18px;
   }
@@ -619,11 +669,11 @@ h3 {
   .information-title {
     font-size: 30px;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     margin-left: 40px;
     margin-bottom: 80px;
     margin-top: 80px;
@@ -665,38 +715,38 @@ h3 {
   .footer-links {
     font-size: 12px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
-@media (max-width:460px) {
-  .hero{
+@media (max-width: 460px) {
+  .hero {
     height: 265px;
   }
-  
-  .hero-text{
+
+  .hero-text {
     width: 270px;
   }
 }
 
 @media (max-width: 395px) {
- .logo{
-  margin-left: -20px;
- }
- 
+  .logo {
+    margin-left: -20px;
+  }
+
   .burger-menu {
     margin-right: -40px;
   }
-  
+
   .hero {
     height: 180px;
   }
 
   .hero-content {
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;  
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .hero-title {
@@ -712,7 +762,6 @@ h3 {
     text-align: left;
     margin-left: -30px;
     margin-top: -10px;
-
   }
 
   .nd-button {
